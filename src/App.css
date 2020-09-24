@@ -1,46 +1,18 @@
-/* .App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_1280.jpg);
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+  color: rgb(253, 125, 5);
+  background-color: whitesmoke;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-/* .KeyPadComponent {
-  position: relative;
-  margin-left: 40px;
-} */
 
 .result {
   height: 60px;
@@ -53,11 +25,6 @@
   margin: 5px;
 }
 
-.calculator-body {
-  max-width: 400px;
-  margin: auto;
-}
-
 .button {
   display: block;
   background-color: orange;
@@ -67,4 +34,11 @@ button {
   width: 25%;
   height: 60px;
   font-size: 30px;
+  color: rgb(13, 194, 240);
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  margin-left: 75px;
 }
